@@ -144,6 +144,6 @@ body{
     display: flex;
     flex-direction: row-reverse;
     gap:100px;
-    margin-left: 70px;
+    margin-left: 50px;
   }
 }
