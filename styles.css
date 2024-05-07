@@ -1,0 +1,149 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+.title{
+  text-align: center;
+  font-weight: bold;
+  padding: 30px;
+  background-position:top;
+  background-repeat: repeat-x; 
+}
+body{
+ background-image: url('Cloud.png') ;
+ background-color: aqua;
+ height:130vh;
+
+}
+.box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  
+}
+.input{
+  border: 3px solid orange;
+  height:30px;
+  width: auto;
+  outline: 3px dotted blue;
+  border-radius:10px;
+ 
+  color:brown;
+  
+}
+.input::placeholder{
+  font-weight: bold;
+}
+.button{
+  border: 3px solid orange;
+  height:30px;
+  outline: 3px dotted blue;
+  border-radius:10px;
+}
+.button:hover{
+  cursor: pointer;
+}
+.icon{
+  display: block;
+  margin: auto;
+  height: 140px;
+  margin-top: 50px;
+  
+}
+.temperature{
+  margin-top: -30px;
+  text-align: center;
+}
+.city{
+  text-align: center;
+}
+.bottom{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+
+  width: 50vh;
+  height:50vh;
+
+
+}
+.whole{
+  padding:10px;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  gap:30vh;
+  margin-top:15vh;
+  background-color:rgb(93, 181, 216);
+  border: 5px solid cadetblue;
+  border-radius:10px;
+  width:auto;
+  height:80vh;
+}
+.note{
+  display: flex;
+  flex-direction: row-reverse;
+  gap:100px;
+}
+.icon1{
+  display: block;
+  margin: auto;
+  height: 140px;
+  margin-top: 170px;
+  margin-left: -180px;
+}
+.context{
+  margin-left: -80px;
+  display: block;
+  height: 60vh;
+  width:40vh;
+  overflow-wrap: break-word
+}
+@media only screen and (max-width:768px){
+  .whole{
+    padding:10px;
+    display: flex;
+    flex-direction:column;
+    margin: auto;
+    gap:30vh;
+    margin-top:15vh;
+    background-color:rgb(93, 181, 216);
+    border: 5px solid cadetblue;
+    border-radius:10px;
+    width:auto;
+    height:auto;
+    margin-left: 50px;
+  }
+  .note{
+    display: flex;
+    flex-direction: row-reverse;
+    gap:100px;
+    margin-left: 50px;
+  }
+}
+@media only screen and (min-width:769px) and (max-width:1024px){
+  .whole{
+    padding:10px;
+    display: flex;
+    flex-direction:column;
+    margin: auto;
+    gap:30vh;
+    margin-top:15vh;
+    background-color:rgb(93, 181, 216);
+    border: 5px solid cadetblue;
+    border-radius:10px;
+    width:auto;
+    height:auto;
+  }
+  .note{
+    display: flex;
+    flex-direction: row-reverse;
+    gap:100px;
+    margin-left: 70px;
+  }
+}
