@@ -100,8 +100,8 @@ body{
 .context{
   margin-left: -80px;
   display: block;
-  height: 60vh;
-  width:40vh;
+  height: auto;
+  width:auto;
   overflow-wrap: break-word
 }
 @media only screen and (max-width:768px){
