@@ -82,7 +82,7 @@ body{
   background-color:rgb(93, 181, 216);
   border: 5px solid cadetblue;
   border-radius:10px;
-  width:auto;
+  width:200vh;
   height:80vh;
 }
 .note{
@@ -100,35 +100,51 @@ body{
 .context{
   margin-left: -80px;
   display: block;
-  height: auto;
-  width:auto;
+  height: 60vh;
+  width:40vh;
   overflow-wrap: break-word
 }
 @media only screen and (max-width:768px){
   .whole{
     padding:10px;
-    display: flex;
+    display: block;
     flex-direction:column;
     margin: auto;
-    gap:30vh;
+    gap:10vh;
     margin-top:15vh;
     background-color:rgb(93, 181, 216);
     border: 5px solid cadetblue;
     border-radius:10px;
-    width:auto;
-    height:auto;
-    margin-left: 50px;
+    width:80vh;
+    height:200vh;
+
   }
   .note{
-    display: flex;
+    display: block;
+    margin: auto;
     flex-direction: row-reverse;
     
   }
+  .icon1{
+    display: block;
+    margin: auto;
+    height: 140px;
+    margin-top: 170px;
+
+  }
+  .context{
+    display: block;
+    margin: auto;
+    height: 60vh;
+    overflow-wrap: break-word;
+
+  }
+
 }
 @media only screen and (min-width:769px) and (max-width:1024px){
   .whole{
     padding:10px;
-    display: flex;
+    display:block;
     flex-direction:column;
     margin: auto;
     gap:30vh;
@@ -136,13 +152,77 @@ body{
     background-color:rgb(93, 181, 216);
     border: 5px solid cadetblue;
     border-radius:10px;
-    width:auto;
-    height:auto;
+    width:80vh;
+    height:200vh;
   }
   .note{
+     padding-top:100px;
     display: flex;
     flex-direction: row-reverse;
     gap:100px;
-    margin-left: 50px;
+    margin-left: 70px;
   }
+}
+@media only screen and (min-width:250px) and (max-width:769px){
+
+  .whole{
+    padding:10px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    margin: auto;
+    gap:10vh;
+    margin-top:15vh;
+    background-color:rgb(93, 181, 216);
+    border: 5px solid cadetblue;
+    border-radius:10px;
+    width:80vh;
+    height:200vh;
+
+  }
+  .note{
+    margin-top: 30px;
+    display: block;
+    margin: auto;
+    flex-direction: row-reverse;
+    
+  }
+  .icon1{
+    display: block;
+    margin: auto;
+    height: 140px;
+    margin-top: 170px;
+
+  }
+  .context{
+    display: block;
+    margin: auto;
+    height: 60vh;
+    overflow-wrap: break-word;
+
+  }
+
+
+
+}
+@media only screen and (max-height:380px){
+
+  .whole{
+    padding:10px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    gap:30vh;
+    margin-top:15vh;
+    background-color:rgb(93, 181, 216);
+    border: 5px solid cadetblue;
+    border-radius:10px;
+    width:200vh;
+    height:150vh;
+  }
+
+
+
+
 }
